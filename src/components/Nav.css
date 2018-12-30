@@ -1,0 +1,123 @@
+.navbar {
+  padding: 12px 20px !important;
+  background-color: grey;
+  border-radius: 6px;
+  opacity: 0.9;
+  width: 100%;
+}
+
+.navbar-toggler {
+  margin-bottom: 10px;
+}
+
+.logo {
+  margin: 0 130px;
+}
+
+@media (min-width: 576px) {
+  input {
+    position: absolute;
+    top: 84px;
+    right: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  input {
+    position: absolute;
+    top: 54px;
+    right: 32px;
+  }
+}
+
+@media (min-width: 992px) {
+  input {
+    position: absolute;
+    top: 25px;
+    right: 32px;
+  }
+
+  .home {
+    margin-top: -10px;
+  }
+
+  .logo {
+    margin: 0 90px;
+  }
+}
+
+@media (min-width: 1120px) {
+  .home {
+    margin-left: -20px;
+  }
+
+  .logo {
+    margin: 0 110px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo {
+    margin: 0 160px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .home {
+    margin-left: -50px;
+  }
+
+  .logo {
+    margin: 0 190px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .home {
+    margin-left: -120px;
+  }
+
+  .logo {
+    margin: 0 280px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .home {
+    margin-left: -160px;
+  }
+
+  .logo {
+    margin: 0 330px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .home {
+    margin-left: -200px;
+  }
+
+  .logo {
+    margin: 0 380px;
+  }
+
+  input {
+    position: absolute;
+    right: 52px;
+  }
+}
+
+@media (min-width: 1880px) {
+  .home {
+    margin-left: -300px;
+  }
+
+  .logo {
+    margin: 0 420px;
+  }
+
+  input {
+    position: absolute;
+    right: 70px;
+  }
+}
