@@ -1,7 +1,6 @@
 .navbar {
   padding: 12px 20px !important;
   background-color: grey;
-  border-radius: 6px;
   opacity: 0.9;
   width: 100%;
 }
@@ -11,21 +10,53 @@
 }
 
 .logo {
-  margin: 0 130px;
+  margin: 0 50px;
+}
+
+input {
+  opacity: 0.8;
 }
 
 @media (min-width: 576px) {
+  .navbar {
+    margin-bottom: 30px !important;
+  }
+
+  .home {
+    margin-left: 0;
+    margin-top: -10px;
+    font-size: 28px !important;
+  }
+
+  .logo {
+    margin: 0 24px;
+  }
+
   input {
     position: absolute;
-    top: 84px;
-    right: 20px;
+    top: 80px;
+    right: 35%;
   }
 }
 
 @media (min-width: 768px) {
+  .navbar {
+    margin-bottom: 0 !important;
+  }
+
+  .home {
+    margin-left: -20px;
+    margin-top: -10px;
+    font-size: 28px !important;
+  }
+
+  .logo {
+    margin: 0 40px;
+  }
+
   input {
     position: absolute;
-    top: 54px;
+    top: 25px;
     right: 32px;
   }
 }
@@ -39,6 +70,7 @@
 
   .home {
     margin-top: -10px;
+    margin-left: -10px;
   }
 
   .logo {

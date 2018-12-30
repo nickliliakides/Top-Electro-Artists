@@ -1,19 +1,20 @@
-import React, { Component } from "react";
-import "./App.css";
-import DjList from "./components/DjList";
-import Nav from "./components/Nav";
+import React, { Component } from 'react';
+import './App.css';
+import DjList from './components/DjList';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
       djs: [],
-      searchBox: ""
+      searchBox: ''
     };
   }
 
   componentDidMount() {
-    fetch("https://www.jasonbase.com/things/2Rkm")
+    fetch('https://www.jasonbase.com/things/2Rkm')
       .then(res => res.json())
       .then(djs => this.setState({ djs }));
   }
@@ -36,6 +37,7 @@ class App extends Component {
       <div>
         <Nav searchChange={this.onSearchChange} />
         <DjList djs={filteredDjs} />
+        <Footer />
       </div>
     );
   }

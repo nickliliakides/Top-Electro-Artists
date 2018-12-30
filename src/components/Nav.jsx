@@ -7,16 +7,17 @@ const Nav = ({ searchChange }) => {
       <div className="container">
         <a className="home" href="#">
           top electro artists
-          <img
-            className="logo"
-            src="https://i.pinimg.com/originals/89/2d/90/892d90036c53bc15fd13f9f7f93e9a78.png"
-            style={{
-              width: '110px',
-              height: '60px',
-              color: 'white'
-            }}
-          />
         </a>
+        <img
+          className="logo"
+          src="https://i.pinimg.com/originals/89/2d/90/892d90036c53bc15fd13f9f7f93e9a78.png"
+          style={{
+            width: '110px',
+            height: '60px',
+            color: 'white'
+          }}
+        />
+
         <button
           className="navbar-toggler"
           data-toggle="collapse"
@@ -24,7 +25,7 @@ const Nav = ({ searchChange }) => {
         >
           <span className="navbar-toggler-icon" />
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse navbar-collapse search" id="navbarNav">
           <form className="form-inline ml-auto">
             <input
               type="search"
