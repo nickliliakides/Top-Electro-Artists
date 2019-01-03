@@ -5,7 +5,7 @@ const Nav = ({ searchChange }) => {
   return (
     <nav className="navbar navbar-expand-sm sticky-top navbar-dark bg-dark mb-3">
       <div className="container">
-        <a className="home" href="#">
+        <a className="home" href="/">
           top electro artists
         </a>
         <img
