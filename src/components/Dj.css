@@ -48,13 +48,9 @@ h6 {
   color: antiquewhite !important;
 }
 
-#bt {
-  padding-top: 10px;
-}
-
 .bio {
   overflow-y: scroll;
-  height: 120px;
+  height: 140px;
 }
 
 @media (max-width: 474px) {
@@ -74,8 +70,26 @@ h6 {
   }
 }
 
-@media (min-width: 1320px) {
+@media (min-width: 1305px) {
   .main-container {
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr;
+  }
+}
+
+@media (min-width: 685px) and (max-width: 768px) {
+  .image {
+    width: 284px !important;
+  }
+}
+
+@media (min-width: 685px) and (max-width: 994px) {
+  .bio {
+    width: 207%;
+  }
+}
+
+@media (min-width: 995px) and (max-width: 1100px) {
+  .image {
+    width: 284px !important;
   }
 }

@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('https://www.jasonbase.com/things/5dxV')
+    fetch(' https://www.jasonbase.com/things/1wgD')
       .then(res => res.json())
       .then(djs => this.setState({ djs }));
   }

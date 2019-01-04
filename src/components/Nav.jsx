@@ -16,6 +16,7 @@ const Nav = ({ searchChange }) => {
             height: '60px',
             color: 'white'
           }}
+          alt="logo"
         />
 
         <button

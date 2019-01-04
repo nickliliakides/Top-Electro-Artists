@@ -6,8 +6,15 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div>
-        Top Electro Artists &nbsp; &copy; <span>{year} </span> by Nikolaos
-        Liliakidis. All rights reserved.
+        Top Electro Artists &nbsp; &copy; <span>{year} </span> by{' '}
+        <a
+          className="mylink"
+          href="https://nickliliakides.co.uk/"
+          target="_blank"
+        >
+          Nikolaos Liliakidis
+        </a>
+        . All rights reserved.
       </div>
     </footer>
   );

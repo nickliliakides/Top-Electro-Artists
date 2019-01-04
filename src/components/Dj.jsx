@@ -6,7 +6,7 @@ const Dj = ({ name, genre, nationality, about, picture, releases }) => {
     <div className="main-container">
       <div className="box">
         <img
-          className="image"
+          className="image img-thumbnail"
           src={picture}
           alt="Artist"
           style={{ width: '320px', height: '200px', borderRadius: '4px' }}
