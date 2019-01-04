@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Top-Electro-Artists/precache-manifest.c8df9530bfeba6eb4c3e61f5f22975f0.js"
+  "/Top-Electro-Artists/precache-manifest.c29f328b645b4a616403af3373467470.js"
 );
 
 workbox.clientsClaim();
