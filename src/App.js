@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import './App.css';
 import DjList from './components/DjList';
 import Nav from './components/Nav';
@@ -15,7 +14,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    axios.get('https://api.myjson.com/bins/wxzne')
+    fetch('https://api.myjson.com/bins/wxzne')
       .then(res => res.json())
       .then(djs => this.setState({ djs }));
   }
