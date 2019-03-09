@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import axio from 'axios';
+import axios from 'axios';
 import './App.css';
 import DjList from './components/DjList';
 import Nav from './components/Nav';
