@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axio from 'axios';
 import './App.css';
 import DjList from './components/DjList';
 import Nav from './components/Nav';
@@ -14,7 +15,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('https://www.jasonbase.com/things/WA0k', { mode: 'no-cors'})
+    axios.get('https://www.jasonbase.com/things/WA0k')
       .then(res => res.json())
       .then(djs => this.setState({ djs }));
   }
