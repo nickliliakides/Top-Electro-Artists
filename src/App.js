@@ -15,7 +15,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    axios.get('../data.json')
+    axios.get('https://api.myjson.com/bins/wxzne')
       .then(res => res.json())
       .then(djs => this.setState({ djs }));
   }
