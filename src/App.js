@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('https://www.jasonbase.com/things/WA0k')
+    fetch('https://www.jasonbase.com/things/WA0k', { mode: 'no-cors'})
       .then(res => res.json())
       .then(djs => this.setState({ djs }));
   }
