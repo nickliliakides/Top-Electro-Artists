@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/Top-Electro-Artists/static/js/runtime~main.ebd053c1.js"
   },
   {
-    "revision": "9a64dde44ac9ad0081aa",
-    "url": "/Top-Electro-Artists/static/js/main.9a64dde4.chunk.js"
+    "revision": "e74ea425f26ed51312ff",
+    "url": "/Top-Electro-Artists/static/js/main.e74ea425.chunk.js"
   },
   {
     "revision": "e697225c9f9112cd7afc",
     "url": "/Top-Electro-Artists/static/js/1.e697225c.chunk.js"
   },
   {
-    "revision": "9a64dde44ac9ad0081aa",
+    "revision": "e74ea425f26ed51312ff",
     "url": "/Top-Electro-Artists/static/css/main.d32a2d82.chunk.css"
   },
   {
-    "revision": "b69fcefe1a4ef5e848f84173ff1c804d",
+    "revision": "2f588ad41e971df9aed50cb885fed212",
     "url": "/Top-Electro-Artists/index.html"
   }
 ];
