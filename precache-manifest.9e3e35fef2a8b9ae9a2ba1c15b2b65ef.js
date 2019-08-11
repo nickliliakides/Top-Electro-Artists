@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7de6f08c5c98b05edc9a",
+    "revision": "0617118af16d60f48768",
     "url": "/Top-Electro-Artists/static/css/main.bf62f131.chunk.css"
   },
   {
-    "revision": "7de6f08c5c98b05edc9a",
-    "url": "/Top-Electro-Artists/static/js/main.7de6f08c.chunk.js"
+    "revision": "0617118af16d60f48768",
+    "url": "/Top-Electro-Artists/static/js/main.0617118a.chunk.js"
   },
   {
     "revision": "324b6cf3b56bf43378ce",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/Top-Electro-Artists/static/media/SEGA.12a3db8b.woff"
   },
   {
-    "revision": "b8d75830ebc00018fcaf8689a98f07af",
+    "revision": "e5f2b3a1b9e45bc1544f28db08b23e43",
     "url": "/Top-Electro-Artists/index.html"
   }
 ];
