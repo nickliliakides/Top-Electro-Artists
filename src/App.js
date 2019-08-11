@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('https://api.myjson.com/bins/15nbcb')
+    fetch('https://api.myjson.com/bins/19a9uj')
       .then(res => res.json())
       .then(djs => this.setState({ djs }));
   }
