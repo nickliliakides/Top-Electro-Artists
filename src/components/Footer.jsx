@@ -9,7 +9,7 @@ const Footer = () => {
         Top Electro Artists &nbsp; &copy; <span>{year} </span> by{' '}
         <a
           className="mylink"
-          href="https://nickliliakides.co.uk/"
+          href="https://nicklils.github.io/nikolaosliliakidis.github.io/"
           target="_blank"
         >
           Nikolaos Liliakidis
